@@ -1,0 +1,168 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  font-family: "Open Sans Condensed", "Arial Narrow", serif;
+  background: rgb(255, 255, 255) url(../images/blue_egg_shell.jpg) repeat top left;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+a{
+  color: #3C3744;
+  text-decoration: none;
+}
+
+a:hover{
+  color: black;
+}
+
+a:active{
+  color: #090C9B;
+}
+
+header{
+	padding: 5px 10px 10px 10px;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px #090C9B;
+  text-align: center;
+}
+header h1{
+	font-size: 36px;
+	line-height: 36px;
+  padding: 10px 10px 0px 10px;
+	margin: 0;
+	position: relative;
+	font-weight: 300;
+	color: #090C9B;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.7);
+}
+
+header h1 span{
+	font-weight: 700;
+}
+
+nav {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 22px;
+}
+
+div{
+  border-radius: 15px;
+  height: 50px;
+}
+
+h2{
+  font-size: 26px;
+	line-height: 20px;
+  margin-top: 10%;
+	padding: 10px 10px 10px 12px;
+	display: block;
+	color: #090C9B;
+  font-weight: 300;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.7);
+}
+
+article{
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  background: rgb(255, 255, 255) url(../images/egg_shell.jpg) repeat top left;
+}
+
+p{
+	margin: 10px;
+	padding: 20px 10px 20px 10px;
+  text-align: justify;
+	display: block;
+	color: #3C3744;
+  font-size: 20px;
+}
+
+section{
+  margin-inline-start: 100px;
+  display: grid;
+}
+
+.nav-m{
+  margin-left: 520px;
+  margin-right: 520px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  background: rgb(255, 255, 255) url(../images/egg_shell.jpg) repeat top left;
+  border-style: solid;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(150px, auto);
+  row-gap: 30%;
+  width: 60%;
+}
+.one {
+  grid-column: 1;
+  grid-row: 1;
+}
+.two {
+  grid-column: 2;
+  grid-row: 1;
+}
+.three {
+  grid-column: 1;
+  grid-row: 2;
+}
+.four {
+  grid-column: 2;
+  grid-row: 2;
+}
+.pf{
+  position: absolute;
+  width: 270px;
+  height: 300px;
+  left: 850px;
+  top: 158px;
+  filter: drop-shadow(8px 7px 6px rgba(0, 0, 0, 0.6));
+  border-radius: 15px;
+}
+
+.gh{
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 880px;
+  top: 470px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+.ig{
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 935px;
+  top: 470px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+.fc{
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 990px;
+  top: 470px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+.rd{
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 1045px;
+  top: 470px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
