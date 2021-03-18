@@ -1,0 +1,244 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  font-family: "Open Sans Condensed", "Arial Narrow", serif;
+  background: rgb(255, 255, 255) url(../images/blue_egg_shell.jpg) repeat top
+    left;
+  font-weight: 400;
+}
+
+a {
+  color: #3c3744;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: #090c9b;
+}
+
+header {
+  padding: 5px 10px 10px 10px;
+  position: relative;
+  display: block;
+  text-shadow: 1px 1px 1px #090c9b;
+  text-align: center;
+}
+header h1 {
+  font-size: 36px;
+  line-height: 36px;
+  padding: 10px 10px 0px 10px;
+  margin: 0;
+  position: relative;
+  font-weight: 300;
+  color: #090c9b;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+}
+
+header h1 span {
+  font-weight: 700;
+}
+
+nav {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 22px;
+}
+
+div {
+  border-radius: 15px;
+  height: 50px;
+}
+
+h2 {
+  position: absolute;
+  left: 780px;
+  top: 200px;
+  font-size: 40px;
+  line-height: 20px;
+  color: #090c9b;
+  font-weight: 300;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+}
+
+article {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  background: rgb(255, 255, 255) url(../images/egg_shell.jpg) repeat top left;
+}
+
+p {
+  margin: 10px;
+  padding: 20px 10px 20px 10px;
+  text-align: justify;
+  display: block;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+section {
+  margin-inline-start: 100px;
+  display: grid;
+}
+
+.nav-m {
+  margin-left: 520px;
+  margin-right: 500px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  background: rgb(255, 255, 255) url(../images/egg_shell.jpg) repeat top left;
+  border-style: solid;
+}
+
+.container1 {
+  position: absolute;
+  width: 430px;
+  height: 240px;
+  left: 780px;
+  top: 240px;
+  background: #090C9B;
+  filter: drop-shadow(8px 7px 6px rgba(0, 0, 0, 0.6));
+}
+
+.w1 {
+  position: absolute;
+  font-size: 30px;
+  left: 0px;
+  top: 0px;
+}
+
+.w2 {
+  position: absolute;
+  font-size: 30px;
+  left: 100px;
+  top: 0px;
+}
+
+.w3 {
+  position: absolute;
+  font-size: 30px;
+  left: 200px;
+  top: 0px;
+}
+
+.w4 {
+  position: absolute;
+  font-size: 30px;
+  left: 280px;
+  top: 0px;
+}
+
+.w5 {
+  position: absolute;
+  font-size: 30px;
+  left: 0px;
+  top: 50px;
+}
+
+.w6 {
+  position: absolute;
+  font-size: 30px;
+  left: 150px;
+  top: 50px;
+}
+
+.w7 {
+  position: absolute;
+  font-size: 30px;
+  left: 300px;
+  top: 50px;
+}
+
+.w8 {
+  position: absolute;
+  font-size: 30px;
+  left: 0px;
+  top: 100px;
+}
+
+.w9 {
+  position: absolute;
+  font-size: 30px;
+  left: 100px;
+  top: 100px;
+}
+
+.w10 {
+  position: absolute;
+  font-size: 30px;
+  left: 200px;
+  top: 100px;
+}
+
+.w11 {
+  position: absolute;
+  font-size: 30px;
+  left: 300px;
+  top: 100px;
+}
+
+.w12 {
+  position: absolute;
+  font-size: 30px;
+  left: 0px;
+  top: 150px;
+}
+
+.w13 {
+  position: absolute;
+  font-size: 30px;
+  left: 80px;
+  top: 150px;
+}
+
+.w14 {
+  position: absolute;
+  font-size: 30px;
+  left: 180px;
+  top: 150px;
+}
+
+.w15 {
+  position: absolute;
+  font-size: 30px;
+  left: 250px;
+  top: 150px;
+}
+
+.w16 {
+  position: absolute;
+  font-size: 30px;
+  left: 330px;
+  top: 150px;
+}
+
+.container2 {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  right: 0%;
+  padding: 20px;
+}
+
+.tabla tr td {
+  padding: 15px;
+}
+
+.tabla tr {
+  cursor: pointer;
+}
+
+.blue {
+  background: #1148fc;
+}
+
+.white {
+  background: #e5e5e5;
+}

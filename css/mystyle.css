@@ -57,7 +57,6 @@ div{
 }
 
 h2{
-  font-size: 26px;
 	line-height: 20px;
   margin-top: 10%;
 	padding: 10px 10px 10px 12px;
@@ -163,6 +162,22 @@ section{
   height: 45px;
   left: 1045px;
   top: 470px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+.wordfind{
+  position: absolute;
+  font-size: 30px;
+  left: 100px;
+  top: 150px;
+}
+
+.imgWord{
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  left: 55px;
+  top: 60px;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
 }
 
