@@ -80,7 +80,7 @@ p{
   text-align: justify;
 	display: block;
 	color: #3C3744;
-  font-size: 20px;
+  font-size: 21px;
 }
 
 section{
@@ -94,6 +94,10 @@ section{
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   background: rgb(255, 255, 255) url(../images/egg_shell.jpg) repeat top left;
   border-style: solid;
+}
+
+.titleAboutMe{
+  font-size: 30px;
 }
 
 .wrapper {
@@ -167,6 +171,10 @@ section{
 
 .wordfind{
   position: absolute;
+  border-style: dashed;
+  width: 25%;
+  height: 25%;
+ 
   font-size: 30px;
   left: 100px;
   top: 150px;
