@@ -169,12 +169,17 @@ section{
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
 }
 
+.portafolio{
+  margin-top: 10px;
+  margin-left: 8px;
+}
+
 .wordfind{
   position: absolute;
-  border-style: dashed;
-  width: 25%;
-  height: 25%;
- 
+  border-style: solid;
+  border-color: #090C9B;
+  width: 20%;
+  height: 24%;
   font-size: 30px;
   left: 100px;
   top: 150px;
@@ -184,8 +189,8 @@ section{
   position: absolute;
   width: 130px;
   height: 130px;
-  left: 55px;
-  top: 60px;
+  left: 70px;
+  top: 40px;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
 }
 
