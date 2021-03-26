@@ -181,7 +181,7 @@ section{
   width: 20%;
   height: 24%;
   font-size: 30px;
-  left: 100px;
+  left: 120px;
   top: 150px;
 }
 
@@ -194,3 +194,22 @@ section{
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
 }
 
+.library{
+  position: absolute;
+  border-style: solid;
+  border-color: #090C9B;
+  width: 25%;
+  height: 24%;
+  font-size: 30px;
+  left: 510px;
+  top: 150px;
+}
+
+.imgbook{
+  position: absolute;
+  width: 200px;
+  height: 80px;
+  left: 75px;
+  top: 60px;
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.5));
+}
