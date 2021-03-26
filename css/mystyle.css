@@ -91,6 +91,7 @@ section{
 .nav-m{
   margin-left: 520px;
   margin-right: 520px;
+  width: 330px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   background: rgb(255, 255, 255) url(../images/egg_shell.jpg) repeat top left;
   border-style: solid;
@@ -212,4 +213,16 @@ section{
   left: 75px;
   top: 60px;
   filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.5));
+}
+
+.footer{
+  background-color: #2d4b8b;
+  padding: 1rem 0;
+  margin-top: 20%;
+}
+
+.fText{
+  color: #ffffff;
+  text-align: center;
+  font-size: 22px;
 }
