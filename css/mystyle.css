@@ -13,10 +13,11 @@ body {
 a{
   color: #3C3744;
   text-decoration: none;
+  transition: .3s ease;
 }
 
 a:hover{
-  color: black;
+  color: #090C9B;
 }
 
 a:active{
@@ -86,6 +87,15 @@ p{
 section{
   margin-inline-start: 100px;
   display: grid;
+}
+
+.home{
+  font-size: 30px;
+  width: 150px;
+  padding: 5px 5px 0px 5px;
+  text-align: center;
+  background: rgb(255, 255, 255) url(../images/egg_shell.jpg) repeat top left;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .nav-m{
@@ -213,6 +223,16 @@ section{
   left: 75px;
   top: 60px;
   filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.5));
+}
+
+.wrapper2{
+  margin-top: 50px;
+  margin-left: 44%;
+  margin-bottom: -20px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  row-gap: 20%;
 }
 
 .footer{
