@@ -13,7 +13,6 @@ body {
 a{
   color: #3C3744;
   text-decoration: none;
-  transition: .3s ease;
 }
 
 a:hover{
@@ -100,7 +99,6 @@ section{
   width: 330px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   background: rgb(255, 255, 255) url(../images/egg_shell.jpg) repeat top left;
-  border-style: solid;
 }
 
 .titleAboutMe{
@@ -176,20 +174,23 @@ section{
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
 }
 
-.portafolio{
+.activities{
   margin-top: 10px;
-  margin-left: 8px;
 }
 
 .wordfind{
   position: absolute;
-  border-style: solid;
-  border-color: #090C9B;
   width: 20%;
   height: 24%;
   font-size: 30px;
-  left: 120px;
+  left: 150px;
   top: 150px;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.53);
+  -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.53);
+  box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.53);
+  padding: 5px; 
+  margin: 30px auto;
+  text-align: center;
 }
 
 .imgWord{
@@ -203,13 +204,17 @@ section{
 
 .library{
   position: absolute;
-  border-style: solid;
-  border-color: #090C9B;
-  width: 25%;
+  width: 26%;
   height: 24%;
   font-size: 30px;
-  left: 510px;
+  left: 505px;
   top: 150px;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.53);
+  -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.53);
+  box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.53);
+  padding: 5px; 
+  margin: 30px auto;
+  text-align: center;
 }
 
 .imgbook{
@@ -219,6 +224,21 @@ section{
   left: 75px;
   top: 60px;
   filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.5));
+}
+
+.consultation{
+  position: absolute;
+  width: 14%;
+  height: 24%;
+  font-size: 30px;
+  left: 950px;
+  top: 150px;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.53);
+  -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.53);
+  box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.53);
+  padding: 5px; 
+  margin: 30px auto;
+  text-align: center;
 }
 
 .wrapper2{
@@ -237,8 +257,15 @@ section{
   margin-top: 20%;
 }
 
+.actFooter{
+  background-color: #2d4b8b;
+  padding: 1rem 0;
+  margin-top: 40%;
+}
+
 .fText{
   color: #ffffff;
   text-align: center;
   font-size: 22px;
 }
+

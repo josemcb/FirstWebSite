@@ -1,0 +1,108 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  font-family: "Open Sans Condensed", "Arial Narrow", serif;
+  background: rgb(255, 255, 255) url(../images/blue_egg_shell.jpg) repeat top
+    left;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+a {
+  color: #3c3744;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #090c9b;
+}
+
+header {
+  padding: 5px 10px 10px 10px;
+  position: relative;
+  display: block;
+  text-shadow: 1px 1px 1px #090c9b;
+  text-align: center;
+}
+header h1 {
+  font-size: 36px;
+  line-height: 36px;
+  padding: 10px 10px 0px 10px;
+  margin: 0;
+  position: relative;
+  font-weight: 300;
+  color: #090c9b;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+}
+
+header h1 span {
+  font-weight: 700;
+}
+
+nav {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 22px;
+}
+
+div {
+  border-radius: 15px;
+  height: 50px;
+}
+
+h2{
+    color: #3c3744;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+p{
+    color: #3c3744;
+    font-size: 20px;
+}
+
+.nav-m {
+  margin-left: 520px;
+  margin-right: 520px;
+  width: 330px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  background: rgb(255, 255, 255) url(../images/egg_shell.jpg) repeat top left;
+}
+
+.Container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: flex-start;
+}
+
+.item {
+  flex: 0 1 auto;
+  align-self: auto;
+  width: 25%;
+  height: auto;
+  padding: 20px;
+  padding-top: 20px;
+  margin-right: 30px;
+  margin-top: 80px;
+  text-align: justify;
+  background: rgb(255, 255, 255) url(../images/egg_shell.jpg) repeat top left;
+  border-radius: 25px;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.53);
+}
+
+.footer{
+    background-color: #2d4b8b;
+    padding: 1rem 0;
+    margin-top: 45%;
+  }
+  .fText{
+    color: #ffffff;
+    text-align: center;
+    font-size: 22px;
+  }
