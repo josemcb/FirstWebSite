@@ -1,44 +1,45 @@
-*{
+* {
   padding: 0%;
   margin: 0%;
 }
 
 body {
   font-family: "Open Sans Condensed", "Arial Narrow", serif;
-  background: rgb(255, 255, 255) url(../images/blue_egg_shell.jpg) repeat top left;
+  background: rgb(255, 255, 255) url(../images/blue_egg_shell.jpg) repeat top
+    left;
   font-weight: 400;
   font-size: 15px;
 }
 
-a{
-  color: #3C3744;
+a {
+  color: #3c3744;
   text-decoration: none;
 }
 
-a:hover{
-  color: #090C9B;
+a:hover {
+  color: #090c9b;
 }
 
-header{
-	padding: 5px 10px 10px 10px;
-	position: relative;
-	display: block;
-	text-shadow: 1px 1px 1px #090C9B;
+header {
+  padding: 5px 10px 10px 10px;
+  position: relative;
+  display: block;
+  text-shadow: 1px 1px 1px #090c9b;
   text-align: center;
 }
-header h1{
-	font-size: 36px;
-	line-height: 36px;
+header h1 {
+  font-size: 36px;
+  line-height: 36px;
   padding: 10px 10px 0px 10px;
-	margin: 0;
-	position: relative;
-	font-weight: 300;
-	color: #090C9B;
-	text-shadow: 1px 1px 1px rgba(255,255,255,0.7);
+  margin: 0;
+  position: relative;
+  font-weight: 300;
+  color: #090c9b;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
 }
 
-header h1 span{
-	font-weight: 700;
+header h1 span {
+  font-weight: 700;
 }
 
 nav {
@@ -47,22 +48,22 @@ nav {
   font-size: 22px;
 }
 
-div{
+div {
   border-radius: 15px;
   height: 50px;
 }
 
-h2{
-	line-height: 20px;
+h2 {
+  line-height: 20px;
   margin-top: 10%;
-	padding: 10px 10px 10px 12px;
-	display: block;
-	color: #090C9B;
+  padding: 10px 10px 10px 12px;
+  display: block;
+  color: #090c9b;
   font-weight: 300;
-	text-shadow: 1px 1px 1px rgba(255,255,255,0.7);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
 }
 
-article{
+article {
   margin-left: 10px;
   margin-right: 10px;
   border-radius: 15px;
@@ -70,21 +71,21 @@ article{
   background: rgb(255, 255, 255) url(../images/egg_shell.jpg) repeat top left;
 }
 
-p{
-	margin: 10px;
-	padding: 20px 10px 20px 10px;
+p {
+  margin: 10px;
+  padding: 20px 10px 20px 10px;
   text-align: justify;
-	display: block;
-	color: #3C3744;
+  display: block;
+  color: #3c3744;
   font-size: 21px;
 }
 
-section{
+section {
   margin-inline-start: 100px;
   display: grid;
 }
 
-.home{
+.home {
   font-size: 30px;
   width: 150px;
   padding: 5px 5px 0px 5px;
@@ -93,7 +94,7 @@ section{
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
-.nav-m{
+.nav-m {
   margin-left: 520px;
   margin-right: 520px;
   width: 330px;
@@ -101,7 +102,7 @@ section{
   background: rgb(255, 255, 255) url(../images/egg_shell.jpg) repeat top left;
 }
 
-.titleAboutMe{
+.titleAboutMe {
   font-size: 30px;
 }
 
@@ -128,7 +129,7 @@ section{
   grid-column: 2;
   grid-row: 2;
 }
-.pf{
+.pf {
   position: absolute;
   width: 270px;
   height: 300px;
@@ -138,7 +139,7 @@ section{
   border-radius: 15px;
 }
 
-.gh{
+.gh {
   position: absolute;
   width: 45px;
   height: 45px;
@@ -147,7 +148,7 @@ section{
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
 }
 
-.ig{
+.ig {
   position: absolute;
   width: 45px;
   height: 45px;
@@ -156,7 +157,7 @@ section{
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
 }
 
-.fc{
+.fc {
   position: absolute;
   width: 45px;
   height: 45px;
@@ -165,7 +166,7 @@ section{
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
 }
 
-.rd{
+.rd {
   position: absolute;
   width: 45px;
   height: 45px;
@@ -174,74 +175,91 @@ section{
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
 }
 
-.activities{
+.activities {
   margin-top: 10px;
 }
 
-.wordfind{
+.wordfind {
   position: absolute;
   width: 20%;
   height: 24%;
   font-size: 30px;
   left: 150px;
   top: 150px;
-  -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.53);
-  -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.53);
-  box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.53);
-  padding: 5px; 
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.53);
+  padding: 5px;
   margin: 30px auto;
   text-align: center;
 }
 
-.imgWord{
+.imgWord {
   position: absolute;
   width: 130px;
-  height: 130px;
+  height: auto;
   left: 70px;
-  top: 40px;
-  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+  top: 60px;
+  border-radius: 15px;
+}
+.imgWord:hover {
+  background: rgb(255, 255, 255) url(../images/egg_shell.jpg) repeat top left;
+  transition: 0.3s ease;
 }
 
-.library{
+.library {
   position: absolute;
   width: 26%;
   height: 24%;
   font-size: 30px;
   left: 505px;
   top: 150px;
-  -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.53);
-  -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.53);
-  box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.53);
-  padding: 5px; 
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.53);
+  padding: 5px;
   margin: 30px auto;
   text-align: center;
 }
 
-.imgbook{
+.imgbook {
   position: absolute;
-  width: 200px;
-  height: 80px;
-  left: 75px;
-  top: 60px;
-  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.5));
+  width: 250px;
+  height: auto;
+  left: 60px;
+  top: 70px;
+  border-radius: 15px;
 }
 
-.consultation{
+.imgbook:hover {
+  background-color: #090c9b;
+  transition: 0.3s ease;
+}
+
+.consulta {
   position: absolute;
   width: 14%;
   height: 24%;
   font-size: 30px;
   left: 950px;
   top: 150px;
-  -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.53);
-  -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.53);
-  box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.53);
-  padding: 5px; 
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.53);
+  padding: 5px;
   margin: 30px auto;
   text-align: center;
 }
 
-.wrapper2{
+.imgConsulta {
+  position: absolute;
+  width: 120px;
+  height: auto;
+  left: 40px;
+  top: 70px;
+  border-radius: 15px;
+}
+
+.imgConsulta:hover {
+  background: rgb(255, 255, 255) url(../images/egg_shell.jpg) repeat top left;
+  transition: 0.3s ease;
+}
+
+.wrapper2 {
   margin-top: 40px;
   margin-left: 44%;
   margin-bottom: -40px;
@@ -251,21 +269,20 @@ section{
   row-gap: 20%;
 }
 
-.footer{
+.footer {
   background-color: #2d4b8b;
   padding: 1rem 0;
   margin-top: 20%;
 }
 
-.actFooter{
+.actFooter {
   background-color: #2d4b8b;
   padding: 1rem 0;
   margin-top: 40%;
 }
 
-.fText{
+.fText {
   color: #ffffff;
   text-align: center;
   font-size: 22px;
 }
-
