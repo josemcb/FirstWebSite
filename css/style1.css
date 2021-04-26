@@ -115,6 +115,7 @@ li{
   grid-row: 1;
 }
 .three {
+  margin-top: -140px;
   grid-column: 1;
   grid-row: 2;
 }
