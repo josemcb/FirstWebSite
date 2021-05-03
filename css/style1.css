@@ -3,28 +3,51 @@
   margin: 0%;
 }
 
+@font-face {
+  font-family: dream orphans;
+  src: url("../font/dream\ orphans.ttf");
+}
+
+@font-face {
+  font-family: Miracle;
+  src: url("../font/Miracle\ Personal\ use.otf");
+}
+@font-face {
+  font-family: Rockford;
+  src: url("../font/RockfordSans-Light.otf");
+}
+
+:root {
+  --main: #ce6a53;
+  --mainDark: #171123;
+  --secondary: #5b85aa;
+  --secondaryDark: #f46036;
+  --violet: #372248;
+  --white: #ffffff;
+  --gray: #3a2c52;
+}
+
 body {
-  font-family: "Open Sans Condensed", "Arial Narrow", serif;
-  background: rgb(255, 255, 255) url(../images/blue_egg_shell.jpg) repeat top
-    left;
+  background: rgb(255, 255, 255) url(../images/orange_paper.jpg) repeat top left;
   font-weight: 400;
   font-size: 15px;
 }
 
 a {
-  color: #3c3744;
+  color: var(--main);
   text-decoration: none;
 }
 
 a:hover {
-  color: #090c9b;
+  color: var(--violet);
 }
 
 header {
+  font-family: dream orphans;
   padding: 5px 10px 10px 10px;
   position: relative;
   display: block;
-  text-shadow: 1px 1px 1px #090c9b;
+  text-shadow: 1px 1px 1px var(--secondaryDark);
   text-align: center;
 }
 header h1 {
@@ -34,7 +57,7 @@ header h1 {
   margin: 0;
   position: relative;
   font-weight: 300;
-  color: #090c9b;
+  color: var(--mainDark);
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
 }
 
@@ -43,6 +66,7 @@ header h1 span {
 }
 
 nav {
+  font-family: "Open Sans Condensed", "Arial Narrow", serif;
   padding-top: 10px;
   text-align: center;
   font-size: 22px;
@@ -54,19 +78,21 @@ div {
 }
 
 h2 {
-  color: #3c3744;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--secondaryDark);
+  font-family: Miracle;
   margin-bottom: 20px;
 }
 
 p {
-  color: #3c3744;
-  font-size: 20px;
+  color: var(--white);
+  font-family: Rockford;
+  font-size: 18px;
 }
 
 li {
-  color: #3c3744;
-  font-size: 20px;
+  color: var(--white);
+  font-family: Rockford;
+  font-size: 18px;
 }
 
 .nav-m {
@@ -74,7 +100,7 @@ li {
   margin-right: 520px;
   width: 330px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-  background: rgb(255, 255, 255) url(../images/egg_shell.jpg) repeat top left;
+  background: var(--white);
 }
 
 .Container {
@@ -90,18 +116,23 @@ li {
   height: auto;
   padding: 20px;
   text-align: justify;
-  background: rgb(255, 255, 255) url(../images/egg_shell.jpg) repeat top left;
   border-radius: 25px;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.53);
+  background-color: var(--gray);
+}
+
+.item:hover {
+  background-color: var(--mainDark);
+  transition: 0.5s ease;
 }
 
 .wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: minmax(150px, auto);
-  row-gap: 310px;
+  row-gap: 380px;
   column-gap: 3%;
-  width: 80%;
+  width: 82%;
   margin-top: 60px;
   margin-left: 130px;
 }
@@ -115,7 +146,7 @@ li {
   grid-row: 1;
 }
 .three {
-  margin-top: -140px;
+  margin-top: -180px;
   grid-column: 1;
   grid-row: 2;
 }
@@ -125,12 +156,13 @@ li {
 }
 
 .footer {
-  background-color: #2d4b8b;
+  background-color: var(--mainDark);
   padding: 1rem 0;
-  margin-top: 78%;
+  margin-top: 92%;
 }
 .fText {
   color: #ffffff;
   text-align: center;
+  font-family: Rockford;
   font-size: 22px;
 }
