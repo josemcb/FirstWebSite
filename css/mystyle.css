@@ -289,3 +289,119 @@ section {
   text-align: center;
   font-size: 22px;
 }
+
+@media only screen and (max-width: 768px){
+  .wrapper2 {
+    margin-top: 40px;
+    margin-left: 30%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    row-gap: 10%;
+  }
+
+  .footer {
+    background-color: #2d4b8b;
+    padding: 1rem 0;
+    margin-top: 60%;
+  }
+
+  nav {
+    font-family: "Open Sans Condensed", "Arial Narrow", serif;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .nav-m {
+    margin-left: 50px;
+    width: 280px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    background: var(--white);
+  }
+  
+  .activities {
+    margin-top: 0px;
+  }
+
+  .wordfind {
+    position: absolute;
+    width: 40%;
+    height: 22%;
+    font-size: 20px;
+    left: 120px;
+    top: 150px;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.53);
+    padding: 5px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  
+  .imgWord {
+    position: absolute;
+    width: 130px;
+    height: auto;
+    left: 25px;
+    top: 60px;
+    border-radius: 15px;
+  }
+  .imgWord:hover {
+    background: rgb(255, 255, 255) url(../images/egg_shell.jpg) repeat top left;
+    transition: 0.3s ease;
+  }
+  
+  .library {
+    position: absolute;
+    width: 70%;
+    height: 20%;
+    font-size: 20px;
+    left: 60px;
+    top: 400px;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.53);
+    padding: 5px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  
+  .imgbook {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    left: 30px;
+    top: 60px;
+    border-radius: 15px;
+  }
+  
+  .imgbook:hover {
+    background-color: #090c9b;
+    transition: 0.3s ease;
+  }
+  
+  .consulta {
+    position: absolute;
+    width: 40%;
+    height: 18%;
+    font-size: 20px;
+    left: 120px;
+    top: 640px;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.53);
+    padding: 5px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  
+  .imgConsulta {
+    position: absolute;
+    width: 120px;
+    height: auto;
+    left: 30px;
+    top: 60px;
+    border-radius: 15px;
+  }
+
+  .actFooter {
+    background-color: #2d4b8b;
+    padding: 1rem 0;
+    margin-top: 250%;
+  }
+}
