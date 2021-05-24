@@ -1,0 +1,33 @@
+{
+  "catalogo": [
+    {
+      "product": {
+        "name": "The Promised Neverland, Vol. 5 (5)",
+        "author":"Kaiu Shirai",
+        "image": "images/mangas/TPN_Vol_5.jpg",
+        "price": 8.99,
+        "about": "The children of the Grace Field House orphanage must escape a macabre fate before it’s too late...",
+        "type": "Manga",
+        "b_lenght": "192 pages",
+        "language": "English",
+        "publisher": "VIZ Media LLC",
+        "pub_date": "August 7, 2018"
+      }
+    },
+
+    {
+      "product": {
+        "name": "Jujutsu Kaisen, Vol. 4",
+        "author":"Gege Akutami",
+        "image": "images/mangas/JJ_K_Vol_4.jpg",
+        "price": 8.99,
+        "about": "While investigating a strange set of mysterious deaths, Itadori meets Junpei, a troubled kid who is often bullied at school...",
+        "type": "Manga",
+        "b_lenght": "200 pages",
+        "language": "English",
+        "publisher": "VIZ Media LLC",
+        "pub_date": "June 2, 2020"
+      }
+    }
+  ]
+}

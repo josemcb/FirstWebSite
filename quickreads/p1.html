@@ -2,10 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Quickreads. Books, Comics & More</title>
-        <link rel="stylesheet" href=css/bookStyle.css>
+        <link rel="stylesheet" href="css/bookStyle.css">
       </head>
       <body>
         <header class="header">
@@ -18,29 +17,14 @@
             <a class="nav_link" href="#">Mangas</a>
           </nav>
         </header>
-<body>
+<body onload="bringInfoJSON();">
 
     <main class="container">
-        <h1>The Promised Neverland, Vol. 5 (5)</h1>
-        <h2>By: Kaiu Shirai</h2>
+        <h1 id="title"></h1>
+        <h2 id="title2"></h2>
         <div class="prod">
             <img class="cover" src="images/mangas/TPN_Vol_5.jpg" alt="imagen del producto">
-            <div class="about">
-                <p>The children of the Grace Field House orphanage must escape a macabre fate before it’s too late.
-                  Life at Grace Field House is good for Emma and her fellow orphans. While the daily studying and 
-                  exams they have to take are tough, their loving caretaker provides them with delicious food and 
-                  plenty of playtime. But perhaps not everything is as it seems…</p>
-                  <p>As Grace Field House goes up in flames, Emma and the other children make their run for freedom. With Mom refusing to give up and an army of demons at her call, this escape from captivity won’t be easy. Just what will Emma have to sacrifice to pull it off…?</p>
-
-                <div class="info">
-                  <p class="infoText">Price: $8.99</p>
-                  <p class="infoText">Type: Manga</p>
-                  <p class="infoText">Print length: 192 pages</p>
-                  <p class="infoText">Language: English</p>
-                  <p class="infoText">Publisher: VIZ Media LLC</p>
-                  <p class="infoText">Publication date: August 7, 2018</p>
-                </div>
-            </div>
+            <div class="about" id="contenido"></div>
             <div class="mainForm">
               <form class="form">
                 <input class="formField" type="number" placeholder="Qty." min="1">
@@ -51,7 +35,9 @@
     </main>
 
     <footer class="footer">
-        <p class="fText">© 2021 Quickreads.  All rights reserved.</p>
-    </footer>
+      <p class="fText">© 2021 Quickreads.  All rights reserved.</p>
+  </footer>
+  
+    <script src="js/infos.js"></script>
 </body>
 </html>
