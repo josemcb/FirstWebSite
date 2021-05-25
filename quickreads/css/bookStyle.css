@@ -103,12 +103,6 @@ h3{
   width: 60%;
 }
 
-@media (min-width: 768px) {
-  .grid{
-      grid-template-columns: repeat(3,1fr);
-  }
-}
-
 .product {
   background-color: var(--mainDark);
   padding: 2rem 5rem 1rem 5rem;
@@ -141,12 +135,91 @@ h3{
   color: var(--price);
 }
 
-/* Product page */
-@media (min-width: 768px) {
-  .prod{
-      display:grid;
-      grid-template-columns: repeat(2,1fr);
-      column-gap: 10%;
+/*Main page*/
+@media (min-width: 300px) and (max-width: 600px){
+  .container {
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+
+  h1,h2,h3 {
+    text-align: center;
+    color: var(--LightCBlue);
+  }
+  
+  h1{
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  
+  .header {
+    display: block;
+    background-color: var(--mainDark);
+  }
+  
+  .logo {
+    width: 250px;
+    height: auto;
+    margin: 20px 0px 0px 60px;
+  }
+  
+  .nav {
+    margin-top: 10px;
+    margin-left: 0px;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav_link {
+    color: var(--white);
+    font-size: 25px;
+  }
+  
+  .footer{
+    background-color: var(--mainDark);
+    padding: 1rem 0;
+    margin-top: 20px;
+  }
+  
+  .fText{
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .grid {
+    display: block;
+  }
+  
+  .product {
+    width: 55%;
+    background-color: var(--mainDark);
+    padding: 2rem 5rem 1rem 5rem;
+    margin-top: 20px;
+    margin-left: 45px;
+  }
+
+  .productImage {
+   height: 300px;
+   width: 200px;
+   margin-left: -35px;
+  }
+  
+  .productName {
+    font-size: 22px;
+    margin-left: -35px;
+  }
+  
+  .productAuthor{
+    font-size: 20px;
+    color: var(--LightCBlue);
+    margin-left: -35px;
+  }
+  
+  .productPrice {
+    font-size: 20px;
+    color: var(--price);
+    margin-left: -35px;
   }
 }
 
