@@ -1,0 +1,164 @@
+* {
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  :root {
+    --main: #2d4b8b;
+    --mainDark: #14223e;
+    --secondary: #1f428f;
+    --secondaryDark: #172f61;
+    --LightCBlue: #8ECAE6;
+    --white: #ffffff;
+    --price: #2958be;
+    --info: #4cbff5;
+  }
+  
+  body {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    background-color: var(--main);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--LightCBlue);
+  }
+  
+  p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--white);
+  }
+   
+  h1,h2,h3 {
+    text-align: center;
+    color: var(--LightCBlue);
+  }
+  
+  h1{
+    margin-top: 20px;
+    font-size: 40px;
+  }
+  
+  h2{
+    font-size: 30px;
+  }
+  
+  h3{
+    font-size: 20px;
+  }
+  
+  .header {
+    display: flex;
+    background-color: var(--mainDark);
+  }
+  
+  .logo {
+    width: 300px;
+    height: 100px;
+    margin: 20px 20px 20px 30px;
+  }
+  
+  .nav {
+    margin-top: 35px;
+    margin-left: 130px;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    transition: .3s ease;
+  }
+  
+  .nav_link {
+    color: var(--white);
+    font-size: 2rem;
+    transition: .3s ease;
+  }
+  
+  .footer{
+    background-color: var(--mainDark);
+    padding: 1rem 0;
+    margin-top: 20px;
+  }
+  
+  .fText{
+    text-align: center;
+    font-size: 22px;
+  }
+
+.cover{
+    height: 410px;
+    width: 280px;
+    padding: 2rem 2rem 2rem 2rem;
+    background-color: var(--mainDark);
+    margin-top: 30px;
+    margin-left: 320px;
+  }
+  
+  .about{
+    position: absolute;
+    margin-top: -470px;
+    margin-right: 100px;
+    margin-left: 700px;
+    text-align: justify;
+  }
+  
+  .info{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .infoText{
+    margin-top: 20px;
+    font-size: 18px;
+    color: var(--info);
+  }
+  
+  .mainForm{
+    position: absolute;
+    margin-top: -155px;
+    margin-left: 700px;
+    margin-bottom: 1000px;
+  }
+  
+  .form{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10%;
+  }
+  
+  .formField{
+    height: 20px;
+    width: 50px;
+    border : 5px solid var(--mainDark);
+    background-color: transparent;
+    color: var(--white);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem 1rem 1rem 1rem;
+    appearance: none;
+    margin-top: 20px;
+    grid-column: 1/ 1;
+  }
+  
+  .formSubmit{
+    background-color: var(--mainDark);
+    border: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--white);
+    padding: 1rem 1rem 1rem 1rem;
+    transition: .3s ease;
+    grid-column: 1/ 1;
+    grid-row: 2;
+  }
+  
+  .formSubmit:hover{
+    cursor:pointer;
+    background-color: var(--secondary);
+  }
